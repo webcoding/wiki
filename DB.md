@@ -1,5 +1,5 @@
 ##数据库设计
-使用相对来说，比较稳定的[mysql](https://github.com/felixge/node-mysql)
+使用[mongodb](https://github.com/LearnBoost/mongoose)
 
 ##数据库设计
 
