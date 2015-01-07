@@ -17,7 +17,7 @@
           "last_modified": "1418038405",
           "lock": "0",
           "childrenids": [23,34,67],  //冗余设计
-          "tagids": [125,126]         //冗余设计
+          //"tagids": [125,126]         //冗余设计
         }
       },
       tag_list: {
@@ -26,8 +26,9 @@
           "name": "javascript",       //若为英文，全部用小写？
           "enname": "english-name",   //用作路由
           "rank": 4,
-          //"alias": "js",            //别名
+          "alias": ["js"],            //别名
           "quality": 23,              //该tag下url数量
+          "links":[23,34453,3434]
           "add_date": "1399467780",
           "last_modified": "1418038405"
         },
