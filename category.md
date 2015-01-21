@@ -17,7 +17,7 @@
     - less              //Less
 - javascript            //JavaScript [alias: js]
 - markdown              //Markdown
-- frame                 //框架
+- framework             //框架
     - nodejs            //Node.js
         - express       //Express
         - socketio      //Socket.IO
@@ -41,6 +41,7 @@
     - bower             //Bower
     - grunt             //Grunt
     - gulp              //Gulp
+- editor                //编辑器
     - sublime           //Sublime
 - debug                 //调试工具
     - fiddle            //Fiddler
@@ -71,4 +72,27 @@
 
 这个作为后续方案展开实施
 
+举例：
 
+### 1、按编程/语言聚合，如下分类：
+
+```js
+HTML
+CSS
+JavaScript
+    各种框架
+        Backbane.js
+        Angular.js
+        ExtJS
+    各种库
+        jQuery
+        Underscore.js
+        Zepto.js
+    其他...
+PHP
+Python
+Go
+C/C++
+Ruby
+```
+实际应该有更多的按编程语言的子聚合，各种语言下的框架/类的聚合，工具的类型集合
